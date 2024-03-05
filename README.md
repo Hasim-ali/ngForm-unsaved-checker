@@ -1,8 +1,8 @@
-# validateFormDataAndResponse
+## ngForm-unsaved-checker
 
-validateFormDataAndResponse is a function designed to verify whether the data in a form has been altered since it was last submitted or loaded. Its purpose is to compare the current state of the form data with its previous state and determine if any changes have occurred. If changes are detected, the function returns false to indicate that the data has been modified. Otherwise, it returns true, indicating that the data remains unchanged. This function is useful for ensuring data integrity and preventing unintended modifications to form data.
+unsavedchecker is a function designed to verify whether the data in a form has been altered since it was last submitted or loaded. Its purpose is to compare the current state of the form data with its previous state and determine if any changes have occurred. If changes are detected, the function returns false to indicate that the data has been modified. Otherwise, it returns true, indicating that the data remains unchanged. This function is useful for ensuring data integrity and preventing unintended modifications to form data.
 
-## ```Features```
+### ```Features```
 
  - Form Data Validation: Validates whether the data in a form has changed since its last submission or loading.
  - Change Detection: Detects modifications made to the form data to maintain data integrity.
@@ -20,7 +20,7 @@ validateFormDataAndResponse is a function designed to verify whether the data in
  - Cross-platform Compatibility: Compatible with a wide range of platforms and frameworks for versatility in development environments.
  - Continuous Support: Provides ongoing support and maintenance to address any issues or updates.
 
-## ```Installation```
+### ```Installation```
 
 Install the package via npm:
 
@@ -70,7 +70,7 @@ console.log(isValid2); // Output: false
 
 ```
 
-## Angular Example: For new form
+### Angular Example: For new form
 
 ```ts
 import { Component } from '@angular/core';
@@ -105,7 +105,7 @@ export class MyFormComponent {
 
 ```
 
-## And the corresponding template (my-form.component.html):
+### And the corresponding template (my-form.component.html):
 
 ```html
 <form (ngSubmit)="onSubmit()">
@@ -119,7 +119,7 @@ export class MyFormComponent {
 
 ```
 
-## Example: compare with responce
+### Example: compare with responce
 
 ```ts
 import { Component } from '@angular/core';
@@ -160,7 +160,7 @@ export class MyFormComponent {
 
 ```
 
-## And the corresponding template (my-form.component.html):
+### And the corresponding template (my-form.component.html):
 
 ```html
 <form (ngSubmit)="onSubmit()">
@@ -173,13 +173,13 @@ export class MyFormComponent {
 
 ```
 
-## License
+### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Support
+### Support
 If you encounter any issues or have any questions, please file an issue on the GitHub issues page.
 
-## Acknowledgments
+### Acknowledgments
 
 Thanks to all the contributors who have helped to make this project better.
 
