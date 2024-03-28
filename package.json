@@ -1,6 +1,6 @@
 {
   "name": "ngform-unsaved-checker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An npm package for validating conditions and response objects. Ensure data integrity and reliability in your applications with easy-to-use validation functions",
   "main": "index.js",
   "scripts": {

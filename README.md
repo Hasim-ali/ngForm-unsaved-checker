@@ -25,7 +25,7 @@ unsavedchecker is a function designed to verify whether the data in a form has b
 Install the package via npm:
 
 ```curl 
-npm install ngform-validation-helper
+npm install ngform-unsaved-checker
 ````
 
 ## ```Usage```
